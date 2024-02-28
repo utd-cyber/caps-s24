@@ -174,7 +174,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Topic 1: Machine Learning for Cyber</h1>
 <p><a href="">Link to Slides</a></p>
 <div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -183,41 +183,50 @@ Topic 1
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This is an example of a callout with a title 1.</p>
-<p>This is an example of a callout with a title 2.</p>
 <p>This is an example of a callout with a title 3.</p>
 </div>
 </div>
 </div>
+<section id="topic-2" class="level2 callout-hint" data-collapse="true">
+<h2 class="anchored" data-anchor-id="topic-2">Topic 2</h2>
+<p>This is an example of a callout with a title 3.</p>
 </section>
-<section id="topic-2-machine-learning-for-cyber" class="level1">
-<h1>Topic 2: Machine Learning for Cyber</h1>
+<section id="collapsible-section-title" class="level3 collapse">
+<h3 class="anchored" data-anchor-id="collapsible-section-title">Collapsible Section Title</h3>
+<p>Content that can be shown or hidden.</p>
+</section>
+<section id="collapsible-section-title-1" class="level2 collapse">
+<h2 class="anchored" data-anchor-id="collapsible-section-title-1">Collapsible Section Title</h2>
+<p>Content that can be shown or hidden.</p>
+</section>
+</section>
+<section id="collapsible-section-title-2" class="level1 collapse">
+<h1>Collapsible Section Title</h1>
+<p>Content that can be shown or hidden.</p>
+</section>
 <div class="grid">
-<div class="g-col-6">
-<p><strong>Slides</strong> □ <a href="slides.pdf">Machine Learning</a></p>
+<p>::: {.g-col-6} <strong>Slides</strong> □ <a href="slides.pdf">Machine Learning</a> :::</p>
+<p>::: {.g-col-6} <strong>Code</strong> □ <a href="R-Handout-3-ML-I.Rmd.zip">R Handout 3: Machine Learning</a> □ <a href="dogs.txt">Dog Look as Data Table</a> :::</p>
 </div>
-<div class="g-col-6">
-<p><strong>Code</strong> □ <a href="R-Handout-3-ML-I.Rmd.zip">R Handout 3: Machine Learning</a> □ <a href="dogs.txt">Dog Look as Data Table</a></p>
-</div>
-</div>
-</section>
+<div class="line-block">Column 1 | Column 2 |</div>
+<p>|<strong>Slides</strong> | <strong>Code</strong> | | □ <a href="slides.pdf">Machine Learning</a> | □ <a href="R-Handout-3-ML-I.Rmd.zip">R Handout 3: Machine Learning</a> | | | □ <a href="dogs.txt">Dog Look as Data Table</a>|</p>
 <section id="servers" class="level1">
 <h1>Servers</h1>
 <p>Servers Descriptiopn</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># url &lt;- "https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv"</span></span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv"</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Use httr::GET to fetch the CSV content without SSL certificate verification</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># library(httr)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># response &lt;- GET(url, config = httr::config(ssl_verifypeer = 0L))</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># csv_content &lt;- content(response, "text")</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># require(data.table)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># library(httr)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#response &lt;- GET(url, config = httr::config(ssl_verifypeer = 0L))</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#csv_content &lt;- content(response, "text")</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#require(data.table)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>url</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv"</code></pre>
 </div>
-<blockquote class="blockquote">
-<h1 id="quote">Quote</h1>
-<p>quote &gt; 1 &gt; 2</p>
-</blockquote>
+</div>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Step 0</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Step 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Step 2</a></li></ul>
 <div class="tab-content">
@@ -232,28 +241,38 @@ Topic 1
 </div>
 </div>
 </div>
-<p>a &lt;- 69</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset collapse">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Step 0</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Step 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Step 2</a></li></ul>
+<div class="tab-content collapse">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Content for tab 1.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>Content for tab 1.</p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>Content for tab 2.</p>
+</div>
+</div>
+</div>
+<p>Code Starts Here</p>
 <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <div data-datacamp-exercise="" data-lang="r">
-<p><code data-type="pre-exercise-code"></code></p><code data-type="pre-exercise-code">
-<p>b &lt;- 35</p>
+<p><code data-type="pre-exercise-code"> a &lt;- 33</code></p><code data-type="pre-exercise-code">
 </code><p><code data-type="pre-exercise-code"></code></p>
-<p><code data-type="sample-code"> # Server 1 </code></p>
+<p><code data-type="sample-code"> # Server 1 b &lt;- 335 </code></p>
 <p><code data-type="solution"> # Create a variable a, equal to 5 a &lt;- 5</code></p><code data-type="solution">
 <pre><code># Print out a
 print(a)</code></pre>
 </code><p><code data-type="solution"></code></p>
-<!--
-<code data-type="sct">
-    test_object("a")
-    test_function("print")
-    success_msg("Great job!")
-</code>
--->
+<p><code data-type="sct"> test_object(“a”) test_function(“print”) success_msg(“Great job!”) </code></p>
 <div data-type="hint">
-Use the assignment operator (<code>&lt;-</code>) to create the variable <code>a</code>
+<p>Use the assignment operator</p>
 </div>
 </div>
+<!--
+
+-->
 
 
 </section>
