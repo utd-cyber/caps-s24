@@ -29,21 +29,7 @@
     "href": "index.html",
     "title": "\n            Capstone in Cyber\n        ",
     "section": "",
-    "text": "Spring ’24\n        \n        \n            UT Dallas\nSide-by-Side\na &lt;- 69"
-  },
-  {
-    "objectID": "index.html#step-1",
-    "href": "index.html#step-1",
-    "title": "\n            Capstone in Cyber\n        ",
-    "section": "Step 1",
-    "text": "Step 1\nContent for tab 1."
-  },
-  {
-    "objectID": "index.html#step-2",
-    "href": "index.html#step-2",
-    "title": "\n            Capstone in Cyber\n        ",
-    "section": "Step 2",
-    "text": "Step 2\nContent for tab 2."
+    "text": "Capstone in Cyber\n        \n        \n            Spring ’24\n        \n        \n            UT Dallas\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nTopic 1: Machine Learning for Cyber\nLink to Slides\n\n\n\n\n\n\nChapter 1\n\n\n\n\n\nThis is an example of a callout with a title 1. This is an example of a callout with a title 2. This is an example of a callout with a title 3.\n\n\n\n\n\nTopic 2: Machine Learning for Cyber\n\n\nSlides □ Machine Learning\n\n\nCode □ R Handout 3: Machine Learning □ Dog Look as Data Table\n\n\n\n\nServers\nServers Descriptiopn\n\n# url &lt;- \"https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv\"\n# Use httr::GET to fetch the CSV content without SSL certificate verification\n    # library(httr)\n# response &lt;- GET(url, config = httr::config(ssl_verifypeer = 0L))\n# csv_content &lt;- content(response, \"text\")\n# require(data.table)\n\n\nquote &gt; 1 &gt; 2\n\n\nQuote\n\nSide-by-Side\n\nStep 0Step 1Step 2\n\n\nContent for tab 1.\n\n\nContent for tab 1.\n\n\nContent for tab 2.\n\n\n\na &lt;- 69\n\n\n a &lt;- 35 b &lt;- c(a, 47) \n # Server 1 \n # Create a variable a, equal to 5 a &lt;- 5\n# Print out a\nprint(a)\n\n\n\nUse the assignment operator (&lt;-) to create the variable a"
   },
   {
     "objectID": "assignments/index.html",
