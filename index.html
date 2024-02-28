@@ -146,13 +146,14 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip with Title
+Chapter 1
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>This is an example of a callout with a title.</p>
+<p>This is an example of a callout with a title. This is an example of a callout with a title. This is an example of a callout with a title.</p>
+<pre><code>a &lt;- 5</code></pre>
 </div>
 </div>
 </div>
@@ -174,13 +175,39 @@ Tip with Title
 </section>
 <section id="servers" class="level1">
 <h1>Servers</h1>
+<p>text</p>
 <pre><code># url &lt;- "https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv"
 # Use httr::GET to fetch the CSV content without SSL certificate verification
     # library(httr)
 # response &lt;- GET(url, config = httr::config(ssl_verifypeer = 0L))
 # csv_content &lt;- content(response, "text")
 # require(data.table)</code></pre>
+<blockquote class="blockquote">
+<p>block quote</p>
+</blockquote>
+<p>text</p>
+<section id="section-title" class="level3 collapse">
+<h3 class="anchored" data-anchor-id="section-title">Section Title</h3>
+<p>Collapsible content here. ### Section Title Collapsible content here.</p>
 </section>
+<p>asdfasdfasd</p>
+</section>
+<section id="section-title-1" class="level1 collapse">
+<h1>Section Title</h1>
+<p>Collapsible content here. # Section Title Collapsible content here. ## Section Title Collapsible content here.</p>
+</section>
+<p>Side-by-Side</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Tab Title 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Tab Title 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Content for tab 1.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Content for tab 2.</p>
+</div>
+</div>
+</div>
 <section id="a---69" class="level1">
 <h1>a &lt;- 69</h1>
 </section>
@@ -188,7 +215,7 @@ Tip with Title
 <h1><code data-type="pre-exercise-code" data-lang="r"></code></h1><code data-type="pre-exercise-code" data-lang="r">
 <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <div data-datacamp-exercise="" data-lang="r">
-<p><code data-type="pre-exercise-code"> a &lt;- 35 url &lt;- “https://asobolev.com/files/0-Data/cyberattacks-across-the-globe-cases.csv” </code></p>
+<p><code data-type="pre-exercise-code"> a &lt;- 35 require(data.table) </code></p>
 <p><code data-type="sample-code"> # Server 1 </code></p>
 <p><code data-type="solution"> # Create a variable a, equal to 5 a &lt;- 5</code></p><code data-type="solution">
 <pre><code># Print out a
