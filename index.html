@@ -198,13 +198,18 @@ Chapter 1
 </section>
 <p>Side-by-Side</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Tab Title 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Tab Title 2</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Step 0</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Content for tab 1.</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="step-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-1">Step 1</h2>
+<p>Content for tab 1.</p>
+</section>
+<section id="step-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-2">Step 2</h2>
 <p>Content for tab 2.</p>
+</section>
 </div>
 </div>
 </div>
@@ -215,7 +220,7 @@ Chapter 1
 <h1><code data-type="pre-exercise-code" data-lang="r"></code></h1><code data-type="pre-exercise-code" data-lang="r">
 <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <div data-datacamp-exercise="" data-lang="r">
-<p><code data-type="pre-exercise-code"> a &lt;- 35 require(data.table) </code></p>
+<p><code data-type="pre-exercise-code"> a &lt;- 35 install.package(data.table) require(data.table) </code></p>
 <p><code data-type="sample-code"> # Server 1 </code></p>
 <p><code data-type="solution"> # Create a variable a, equal to 5 a &lt;- 5</code></p><code data-type="solution">
 <pre><code># Print out a
