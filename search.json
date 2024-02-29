@@ -25,7 +25,14 @@
     "href": "index.html",
     "title": "\n            Capstone in Cyber\n        ",
     "section": "",
-    "text": "Capstone in Cyber\n        \n        \n            Spring ’24\n        \n        \n            UT Dallas\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n1 2 3\n\n3 4 5\n\n\n\n::: {.custom-summary}Click to see details:::\n\nThis content is hidden by default and will be shown when the summary is clicked.\n\n\n\n\n\n\n\n\nGuidelines\n\n\n\nThis is an example of a callout with a title 3.\n\n\ntext 1\n\n\n\n\n\n\nTopic 2\n\n\n\n\n\nThis is an example of a callout with a title 3. ::: {.callout-warning collapse=“true”} ## Topic 3 This is an example of a callout with a title 3. :::\n\n\n\n\n\nSlides\n□ Machine Learning\n\n\nCode\n□ R Handout 3: Machine Learning\n□ Dog Look as Data Table\n\n\n\nMaterials\n\n\n\nSlides\nCode\n\n\n□ Machine Learning\n□ R Handout 3: Machine Learning\n\n\n\n□ Dog Look as Data Table\n\n\n\n\n\nServers\n\nurl &lt;- 'cyber-utd.github.io'\nurl\n\n[1] \"cyber-utd.github.io\"\n\n\n\nStep 0Step 1Step 2\n\n\nContent for tab 1.\n\n\nContent for tab 1.\n\n\nContent for tab 2.\n\n\n\ntext\n\nCollapsible Section Title\nContent that can be shown or hidden.\n\n\n\nClick to expand\n\nDetailed content goes here.\n\nCode Starts Here\n\n\n\nb &lt;- c(33,22)\n\n # Server 1\nc &lt;- 335\n\n # Create a variable a, equal to 5 a &lt;- 5\n# Print out a\nprint(a)\n\n # test_object(“a”) test_object(“b”) test_object(“c”) # test_function(“print”) success_msg(“Great job!”) \n\nUse the assignment operator"
+    "text": "Spring ’24\n        \n        \n            UT Dallas\ntext 1"
+  },
+  {
+    "objectID": "index.html#sub-servers",
+    "href": "index.html#sub-servers",
+    "title": "\n            Capstone in Cyber\n        ",
+    "section": "Sub-Servers",
+    "text": "Sub-Servers\n\n1 Code Execution2 Server3 Other Experiments\n\n\n\nurl &lt;- 'cyber-utd.github.io'\nurl\n\n[1] \"cyber-utd.github.io\"\n\n\n\n\n\n\n\na &lt;- list(c(33,22), “AI”)\n\n # Server 1 \nc &lt;- 335\n\n # Create a variable a, equal to 5 a &lt;- 5\n# Print out a\nprint(a)\n\n # test_object(“a”) test_object(“b”) test_object(“c”) # test_function(“print”) success_msg(“Great job!”) \n\nUse the assignment operator\n\n\n\n\nContent for tab 2.\n\n\n\ntext\n\nCollapsible Section Title\nContent that can be shown or hidden.\n\n\n\nClick to expand\n\nDetailed content goes here.\n\nCode Starts Here"
   },
   {
     "objectID": "assignments/index.html",
