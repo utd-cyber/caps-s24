@@ -100,47 +100,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-</head><body class="nav-fixed">/* css styles */
-.custom-details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 0.5em 0.5em 0;
-    margin-bottom: 1em;
-}
-
-.custom-summary {
-    font-weight: bold;
-    margin-bottom: 0.5em;
-    cursor: pointer;
-}
-
-.hidden-content {
-    display: none;
-    padding: 0 0.5em 0.5em;
-}
 
 
-.details-list {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin-bottom: 1em;
-}
+</head>
 
-.details-summary {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.details-content {
-    display: none;
-    padding-top: 0.5em;
-}
-
-
-
-
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -338,15 +302,6 @@ Use the assignment operator
 </section>
 
 </main> <!-- /main -->
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.details-list').forEach(function(item) {
-        var summary = item.querySelector('.details-summary');
-        summary.addEventListener('click', function() {
-            var content = item.querySelector('.details-content');
-            content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        });
-    });
-});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
