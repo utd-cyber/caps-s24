@@ -100,11 +100,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+</head><body class="nav-fixed">/* css styles */
+.custom-details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    margin-bottom: 1em;
+}
+
+.custom-summary {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+    padding: 0 0.5em 0.5em;
+}
 
 
-</head>
 
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -170,20 +188,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="custom-details">
+<p><strong>::: {.custom-summary}</strong>Click to see details<strong>:::</strong></p>
+<div class="hidden-content">
+<p>This content is hidden by default and will be shown when the summary is clicked.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Caution 1
+Guidelines
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>This is an example of a callout with a title 3.</p>
-</div>
 </div>
 </div>
 <p>text 1</p>
@@ -214,11 +235,25 @@ Topic 2
 <p>□ <a href="dogs.txt">Dog Look as Data Table</a></p>
 </div>
 </div>
-<!--
-| Column 1 | Column 2 | 
-|----------|----------|
--->
-<p>|<strong>Slides</strong> | <strong>Code</strong> | | □ <a href="slides.pdf">Machine Learning</a> | □ <a href="R-Handout-3-ML-I.Rmd.zip">R Handout 3: Machine Learning</a> | | | □ <a href="dogs.txt">Dog Look as Data Table</a>|</p>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><strong>Slides</strong></td>
+<td><strong>Code</strong></td>
+</tr>
+<tr class="even">
+<td>□ <a href="slides.pdf">Machine Learning</a></td>
+<td>□ <a href="R-Handout-3-ML-I.Rmd.zip">R Handout 3: Machine Learning</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>□ <a href="dogs.txt">Dog Look as Data Table</a></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="servers" class="level1">
 <h1>Servers</h1>
 <div class="cell">
